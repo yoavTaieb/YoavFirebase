@@ -2,7 +2,7 @@ import { useEffect, useState, createContext } from "react";
 import LoadingScreen from "Screens/Loading";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "firebaseConfig";
-
+ededeede
 export const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
